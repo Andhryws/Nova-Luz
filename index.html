@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/header.css">
+</head>
+<body>
+    <header>
+        <h1>Landing Page</h1>
+        <nav id="navbar">
+            <i class="fa-solid fa-microscope" id="Nova Luz"> Nova Luz</i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#objetivo ">Nosso Objetivo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#p_funcionalidades">Principais funcionalidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://localhost/IFPE/frontend/index.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://localhost/IFPE/frontend/cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="objetivo">
+                <h2>Qual o nosso objetivo?</h2>
+                <br>
+                <p>Muitas áreas de Jaboatão têm pontos de iluminação pública que ficam apagados ou quebrados,<br> o que causa insegurança. Este site foi criado para que os moradores possam  denunciar pontos <br> de luz apagados, com geolocalização e fotos, para que a prefeitura ou concessionária possam <br> agir mais rápido.
+                </p>
+            </div>
+
+            <br><br>
+
+            <div class="funcionalidades">
+                <h2>Principais funcionalidades</h2>
+                <br>
+                <p>Receberemos, do usuario, a foto do local com iluminação deficiente e a geolocalização. <br> Após isso, enviaremos para a prefeitura de jaboatão para que as autoridade governamentais <br> possam agir com melhor eficiência. Para enviar as informações, é necessario um cadastro no <br> site com suas informações basicas. Nome, idade, email e cpf.</p>
+            </div>
+
+            <br><br>
+
+            <div class="box">
+                <form id="cadastroForm">
+                    <fieldset>
+                        <legend> <b>Cadastro</b> </legend>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required="">
+                            <label for="nome" class="labelInput">Nome Completo</label>
+                        </div>
+
+                        <br><br>
+
+                        <div class="inputBox">
+                            <input type="password" name="senha" id="senha" class="inputUser" required="">
+                            <label for="senha" class="labelInput">Senha</label>
+                        </div>
+
+                        <br><br>
+
+                        <div class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required="">
+                            <label for="email" class="labelInput">Email</label>
+                        </div>
+
+                        <br><br>
+
+                        <div class="inputBox">
+                            <input type="text" name="cpf" id="cpf" class="inputUser" required="">
+                            <label for="cpf" class="labelInput">Cpf</label>
+                        </div>
+                    </fieldset>
+
+                </form>
+            </div>
+        </div>
+        
+    </main>
+
+</body>
+</html>
