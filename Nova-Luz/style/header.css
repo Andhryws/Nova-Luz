@@ -1,0 +1,35 @@
+.navbar-header{
+    width: 100%;
+    padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: antiquewhite;
+    z-index: 3;
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1);
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_logo{
+    font-size: 24px;;
+    color: rgb(111, 111, 185);
+}
+
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+}
+
+
